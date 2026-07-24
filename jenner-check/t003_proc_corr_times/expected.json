@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-24T04:14:33.698104+00:00",
+  "_captured_run_id": "r_ff92cb2a8b5346068b3436894f3f8bbd",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: DATA bc",
+    "NOTE: Read 60 rows from DATALINES.",
+    "NOTE: Wrote bc (60 rows, 17 columns).",
+    "NOTE: PROC CORR data=bc",
+    "NOTE: PROC CORR ODS Graphics generated."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

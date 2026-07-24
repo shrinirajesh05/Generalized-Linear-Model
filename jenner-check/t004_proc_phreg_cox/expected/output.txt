@@ -1,0 +1,38 @@
+        The PHREG Procedure        
+
+Criterion                     Value
+----------------------  -----------
+Number of Observations           60
+Number of Events                 27
+-2 LOG L                    167.447
+Convergence Status      0 Converged
+
+      Testing Global Null Hypothesis: BETA=0      
+
+Test              Chi-Square        DF  Pr > ChiSq
+----------------  ----------  --------  ----------
+Likelihood Ratio     30.5863         3      <.0001
+Wald                 20.5779         3      0.0001
+Score (Log-Rank)     30.1863         3      <.0001
+
+                     Analysis of Maximum Likelihood Estimates                      
+
+Parameter        DF  Estimate  Standard Error  Chi-Square  Pr > ChiSq  Hazard Ratio
+---------  --------  --------  --------------  ----------  ----------  ------------
+recur             1   2.20282         0.62517     12.4156      0.0004         9.051
+nodes             1   0.06115         0.04021      2.3126      0.1283         1.063
+age               1   0.02885         0.01836      2.4702      0.1160         1.029
+
+ Model Selection Summary  
+
+Criterion            Value
+----------------  --------
+Selection Method  STEPWISE
+
+       Covariance Matrix of Parameter Estimates       
+
+Parameter          recur          nodes            age
+---------  -------------  -------------  -------------
+recur       0.3908316924  -0.0028356234  -0.0012597626
+nodes      -0.0028356234   0.0016170788  -0.0000402728
+age        -0.0012597626  -0.0000402728   0.0003369597

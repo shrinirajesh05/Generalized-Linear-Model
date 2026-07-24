@@ -1,0 +1,61 @@
+The LIFETEST Procedure
+
+                 N
+--------  --------
+Total           60
+Event           27
+Censored        33
+
+Stratum: whether or not the patient experienced recurrence(0= no relapse, 1= relapse) = 0.0
+
+                 N
+--------  --------
+Total           30
+Event            3
+Censored        27
+
+Stratum: whether or not the patient experienced recurrence(0= no relapse, 1= relapse) = 1.0
+
+                              N
+--------------------  ---------
+Total                        30
+Event                        24
+Censored                      6
+Median Survival Time  2020.0000
+
+         Test of Equality over Strata          
+
+Test      Chi-Square        DF  Pr > Chi-Square
+--------  ----------  --------  ---------------
+log-rank     23.7294         1           <.0001
+
+The LIFETEST Procedure
+
+                 N
+--------  --------
+Total           60
+Event           27
+Censored        33
+
+Stratum: grade of tumor = 2.0
+
+                 N
+--------  --------
+Total           17
+Event            7
+Censored        10
+
+ Stratum: grade of tumor = 3.0 
+
+                              N
+--------------------  ---------
+Total                        43
+Event                        20
+Censored                     23
+Median Survival Time  3898.0000
+
+         Test of Equality over Strata          
+
+Test      Chi-Square        DF  Pr > Chi-Square
+--------  ----------  --------  ---------------
+log-rank      0.1796         1           0.6717
