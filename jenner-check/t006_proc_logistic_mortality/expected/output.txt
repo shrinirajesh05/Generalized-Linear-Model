@@ -1,0 +1,66 @@
+                                     
+---------------------------  --------
+Number of Observations Read        60
+Number of Observations Used        60
+
+            Response Profile            
+    Probability modeled is death='1'    
+
+Ordered Value  death     Total Frequency
+-------------  --------  ---------------
+            1  0                      33
+            2  1                      27
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+                                                                                                                     
+---------------------------------------------------------------------------------------------------------------------
+WARNING: There is possibly a quasi-complete separation of data points. The maximum likelihood estimate may not exist.
+
+The LOGISTIC Procedure
+Response Variable: death whether the patient died during the follow-up period 0=alive, 1=death
+
+Criterion     Value
+---------  --------
+AIC          25.841
+-2 Log L     15.841
+SC           36.312
+
+            Analysis of Maximum Likelihood Estimates            
+
+Parameter  Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+---------  --------  --------------  ---------------  ----------
+Intercept    1.9701          1.4000           1.9801      0.1594
+recur        6.2775          2.2030           8.1196      0.0044
+dtime       -0.0030          0.0011           7.4710      0.0063
+pgr          0.0033          0.0014           5.8231      0.0158
+chemo       -3.3603          2.1651           2.4088      0.1207
+
+                                                       Odds Ratio Estimates                                                       
+
+Effect                                                                        Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+----------------------------------------------------------------------------  --------------  -----------------  -----------------
+whether or not the patient experienced recurrence(0= no relapse, 1= relapse)         532.469              7.097           >999.999
+days to relapse or last follow-up                                                      0.997              0.995              0.999
+progesterone receptors(fmol/l)                                                         1.003              1.001              1.006
+chemotherapy received or not (0=not received, 1=received)                              0.035             <0.001              2.419
+
+     Summary of Stepwise Selection      
+
+    Step  Effect    Variable  Pr > ChiSq
+--------  --------  --------  ----------
+       1  Entered   recur         <.0001
+       2  Entered   dtime         0.0025
+       3  Entered   pgr           0.0159
+       4  Entered   chemo         1.0000
+
+Variables Selected
+
+Variable
+--------
+recur   
+dtime   
+pgr     
+chemo   

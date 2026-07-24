@@ -1,0 +1,15 @@
+                    The CORR Procedure
+          2 Variables:    days to relapse or last follow-up   rtime
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+days to relapse or last follow-up        60  2438.25000  1199.69395  146295.00000  316.00000  4815.00000
+rtime                                    60  2028.03333  1353.38888  121682.00000  231.00000  4815.00000
+   Pearson Correlation Coefficients, N = 60
+          Prob > |r| under H0: Rho=0
+               dtime     rtime
+--------  --------  --------
+dtime      1.00000   0.88416
+              .       <.0001
+rtime      0.88416   1.00000
+            <.0001      .

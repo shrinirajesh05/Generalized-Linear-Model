@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_proc_logistic_mortality",
+  "source_file": "BreastCancer.sas",
+  "source_blob_sha": "5a685a84fe1bba98c1522dcdaac9ed46f7d78a13",
+  "source_commit": "841e0616d85d5e48d40d2ab862722be2ba82f95a",
+  "notes": "Code 4 stepwise logistic regression (PROC LOGISTIC) for death over a 60-row inline sample of breastcancer.csv. Hardcoded SAS-Studio LIBNAME/FILENAME/PROC IMPORT paths from Code 1 replaced by an inline datalines load of a sampled subset of the repo's own breastcancer.csv; analysis PROC statements and options are verbatim from BreastCancer.sas."
+}

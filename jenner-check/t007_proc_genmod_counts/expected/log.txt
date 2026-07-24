@@ -1,0 +1,44 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA bc
+
+NOTE: Processing inline DATALINES (60 lines)
+
+NOTE: Read 60 rows from DATALINES.
+NOTE: Wrote bc (60 rows, 17 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to number of zeros in nodes.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC GENMOD data=bc
+
+NOTE: PROC GENMOD using R wrapper
+NOTE: 
+NOTE: Response Variable: NODES
+NOTE: Distribution: POISSON
+NOTE: Link Function: LOG
+NOTE: Number of Observations: 60
+NOTE:   Model fitted successfully with 60 observations
+NOTE: ODS plot written: genmod_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: genmod_residual_histogram_panel.spec.json
+NOTE: ODS plot written: genmod_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: genmod_qq_plot.spec.json
+NOTE: PROC GENMOD ODS Graphics generated.
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC GENMOD data=bc
+
+NOTE: PROC GENMOD using R wrapper
+NOTE: 
+NOTE: Response Variable: NODES
+NOTE: Distribution: NEGBIN
+NOTE: Link Function: LOG
+NOTE: Number of Observations: 60
+NOTE:   Model fitted successfully with 60 observations
+NOTE: ODS plot written: genmod_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: genmod_residual_histogram_panel.spec.json
+NOTE: ODS plot written: genmod_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: genmod_qq_plot.spec.json
+NOTE: PROC GENMOD ODS Graphics generated.

@@ -1,0 +1,88 @@
+                                                number of zeros in nodes
+
+num_zeros
+---------
+       32
+                                                number of zeros in nodes
+
+                    The GENMOD Procedure                    
+                     Model Information                      
+
+Item                                                   Value
+----------------------  ------------------------------------
+Response Variable       nodes number of positive lymph nodes
+Distribution                                         poisson
+Link Function                                            log
+Number of Observations                                    60
+
+   Analysis of Maximum Likelihood Parameter Estimates   
+
+Parameter    Estimate  Std Error  Chi-Square  Pr > ChiSq
+-----------  --------  ---------  ----------  ----------
+(Intercept)   -0.4702     1.2474      0.1421      0.7062
+age           -0.0297     0.0105      7.9180      0.0049
+meno           1.3267     0.3493     14.4300      0.0001
+death          0.9698     0.3478      7.7748      0.0053
+grade          0.7594     0.3577      4.5065      0.0338
+pgr           -0.0004     0.0003      1.6581      0.1979
+er             0.0003     0.0002      2.2147      0.1367
+hormon         1.0681     0.2455     18.9292      <.0001
+chemo          1.9552     0.3559     30.1864      <.0001
+rtime         -0.0005     0.0001     13.8968      0.0002
+recur         -0.7872     0.3415      5.3137      0.0212
+
+Criteria for Assessing Goodness of Fit
+
+Criterion           Value
+--------------  ---------
+Deviance         158.1187
+Log Likelihood  -121.3121
+AIC              264.6242
+BIC              287.6620
+                                                number of zeros in nodes
+
+                                                  The MEANS Procedure
+
+ Variable  Label                                    Mean       Variance
+ ----------------------------------------------------------------------
+ nodes     number of positive lymph nodes      2.2166667     16.1725989
+ ----------------------------------------------------------------------
+
+                                                number of zeros in nodes
+
+
+                    The GENMOD Procedure                    
+                     Model Information                      
+
+Item                                                   Value
+----------------------  ------------------------------------
+Response Variable       nodes number of positive lymph nodes
+Distribution                                          negbin
+Link Function                                            log
+Number of Observations                                    60
+
+   Analysis of Maximum Likelihood Parameter Estimates   
+
+Parameter    Estimate  Std Error  Chi-Square  Pr > ChiSq
+-----------  --------  ---------  ----------  ----------
+(Intercept)   -3.2192     2.2056      2.1303      0.1444
+age            0.0256     0.0264      0.9456      0.3308
+meno           0.0493     0.6739      0.0054      0.9417
+death          1.3350     0.6791      3.8642      0.0493
+grade          0.8739     0.5662      2.3823      0.1227
+pgr           -0.0005     0.0006      0.6891      0.4065
+er             0.0003     0.0005      0.3939      0.5303
+hormon         1.3460     0.6141      4.8046      0.0284
+chemo          1.8280     0.7308      6.2570      0.0124
+rtime         -0.0004     0.0002      3.4598      0.0629
+recur         -1.1222     0.6439      3.0377      0.0814
+DISPERSION     1.4869     0.4915           .           .
+
+Criteria for Assessing Goodness of Fit
+
+Criterion          Value
+--------------  --------
+Deviance         52.7024
+Log Likelihood  -95.8496
+AIC             215.6993
+BIC             240.8314

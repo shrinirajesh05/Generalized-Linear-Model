@@ -1,0 +1,39 @@
+                                                   The FREQ Procedure
+
+                                                                                                          Cumulative    Cumulative
+whether or not the patient experienced recurrence(0= no relapse, 1= relapse)    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------------------------------------------------------------------
+0                                                                                      30     50.00           30        50.00
+1                                                                                      30     50.00           60       100.00
+
+                                                                                                   Cumulative    Cumulative
+whether the patient died during the follow-up period 0=alive, 1=death    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------------------------------------------------------------
+0                                                                               33     55.00           33        55.00
+1                                                                               27     45.00           60       100.00
+                                                   The FREQ Procedure
+
+                                                                                       Cumulative    Cumulative
+chemotherapy received or not (0=not received, 1=received)    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------------------------------------------------
+0                                                                   54     90.00           54        90.00
+1                                                                    6     10.00           60       100.00
+
+                                                                                                   Cumulative    Cumulative
+whether the patient died during the follow-up period 0=alive, 1=death    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------------------------------------------------------------
+0                                                                               33     55.00           33        55.00
+1                                                                               27     45.00           60       100.00
+                                                   The FREQ Procedure
+
+                                                                           Cumulative    Cumulative
+hormonal therapy (0=not received, 1=received)    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------------------------------------
+0                                                       51     85.00           51        85.00
+1                                                        9     15.00           60       100.00
+
+                                                                                                   Cumulative    Cumulative
+whether the patient died during the follow-up period 0=alive, 1=death    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------------------------------------------------------------
+0                                                                               33     55.00           33        55.00
+1                                                                               27     45.00           60       100.00

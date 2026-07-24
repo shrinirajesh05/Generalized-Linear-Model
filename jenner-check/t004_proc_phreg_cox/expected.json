@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-24T04:14:33.698104+00:00",
+  "_captured_run_id": "r_938b6fe4ff9b4dc69e803ae42b9f94de",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: DATA bc",
+    "NOTE: Read 60 rows from DATALINES.",
+    "NOTE: Wrote bc (60 rows, 17 columns).",
+    "NOTE: PROC PHREG data=bc",
+    "NOTE: PROC PHREG spec written to: ./ods_output/phreg_basic.spec.json"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
